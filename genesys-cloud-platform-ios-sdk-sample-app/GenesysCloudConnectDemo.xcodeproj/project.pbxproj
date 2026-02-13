@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C733F6728175D57980F1CA33 /* Pods_GenesysCloudConnectDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD80CF4899650AD265C4D17 /* Pods_GenesysCloudConnectDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D243211D2F2AEC1900A91865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24321072F2AEC1700A91865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D243210E2F2AEC1700A91865;
+			remoteInfo = GenesysCloudConnectDemo;
+		};
+		D24321272F2AEC1900A91865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24321072F2AEC1700A91865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D243210E2F2AEC1700A91865;
+			remoteInfo = GenesysCloudConnectDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DD80CF4899650AD265C4D17 /* Pods_GenesysCloudConnectDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenesysCloudConnectDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB83A73834C3167B7BC04EC /* Pods-GenesysCloudConnectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenesysCloudConnectDemo.release.xcconfig"; path = "Target Support Files/Pods-GenesysCloudConnectDemo/Pods-GenesysCloudConnectDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D243210F2F2AEC1700A91865 /* GenesysCloudConnectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenesysCloudConnectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D243211C2F2AEC1900A91865 /* GenesysCloudConnectDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenesysCloudConnectDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24321262F2AEC1900A91865 /* GenesysCloudConnectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenesysCloudConnectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B9C50F4B0B66350760BA9F /* Pods-GenesysCloudConnectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenesysCloudConnectDemo.debug.xcconfig"; path = "Target Support Files/Pods-GenesysCloudConnectDemo/Pods-GenesysCloudConnectDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D24321112F2AEC1700A91865 /* GenesysCloudConnectDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GenesysCloudConnectDemo;
+			sourceTree = "<group>";
+		};
+		D243211F2F2AEC1900A91865 /* GenesysCloudConnectDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GenesysCloudConnectDemoTests;
+			sourceTree = "<group>";
+		};
+		D24321292F2AEC1900A91865 /* GenesysCloudConnectDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GenesysCloudConnectDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D243210C2F2AEC1700A91865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C733F6728175D57980F1CA33 /* Pods_GenesysCloudConnectDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24321192F2AEC1900A91865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24321232F2AEC1900A91865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		722110D6380F40E2AD6A3010 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2B9C50F4B0B66350760BA9F /* Pods-GenesysCloudConnectDemo.debug.xcconfig */,
+				1EB83A73834C3167B7BC04EC /* Pods-GenesysCloudConnectDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7F81F4462C539F3945366D0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD80CF4899650AD265C4D17 /* Pods_GenesysCloudConnectDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D24321062F2AEC1700A91865 = {
+			isa = PBXGroup;
+			children = (
+				D24321112F2AEC1700A91865 /* GenesysCloudConnectDemo */,
+				D243211F2F2AEC1900A91865 /* GenesysCloudConnectDemoTests */,
+				D24321292F2AEC1900A91865 /* GenesysCloudConnectDemoUITests */,
+				D24321102F2AEC1700A91865 /* Products */,
+				722110D6380F40E2AD6A3010 /* Pods */,
+				7F81F4462C539F3945366D0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D24321102F2AEC1700A91865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D243210F2F2AEC1700A91865 /* GenesysCloudConnectDemo.app */,
+				D243211C2F2AEC1900A91865 /* GenesysCloudConnectDemoTests.xctest */,
+				D24321262F2AEC1900A91865 /* GenesysCloudConnectDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D243210E2F2AEC1700A91865 /* GenesysCloudConnectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24321302F2AEC1900A91865 /* Build configuration list for PBXNativeTarget "GenesysCloudConnectDemo" */;
+			buildPhases = (
+				8DF2726108AEA488F457EF2F /* [CP] Check Pods Manifest.lock */,
+				D243210B2F2AEC1700A91865 /* Sources */,
+				D243210C2F2AEC1700A91865 /* Frameworks */,
+				D243210D2F2AEC1700A91865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D24321112F2AEC1700A91865 /* GenesysCloudConnectDemo */,
+			);
+			name = GenesysCloudConnectDemo;
+			productName = GenesysCloudConnectDemo;
+			productReference = D243210F2F2AEC1700A91865 /* GenesysCloudConnectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D243211B2F2AEC1900A91865 /* GenesysCloudConnectDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24321332F2AEC1900A91865 /* Build configuration list for PBXNativeTarget "GenesysCloudConnectDemoTests" */;
+			buildPhases = (
+				D24321182F2AEC1900A91865 /* Sources */,
+				D24321192F2AEC1900A91865 /* Frameworks */,
+				D243211A2F2AEC1900A91865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D243211E2F2AEC1900A91865 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D243211F2F2AEC1900A91865 /* GenesysCloudConnectDemoTests */,
+			);
+			name = GenesysCloudConnectDemoTests;
+			productName = GenesysCloudConnectDemoTests;
+			productReference = D243211C2F2AEC1900A91865 /* GenesysCloudConnectDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D24321252F2AEC1900A91865 /* GenesysCloudConnectDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24321362F2AEC1900A91865 /* Build configuration list for PBXNativeTarget "GenesysCloudConnectDemoUITests" */;
+			buildPhases = (
+				D24321222F2AEC1900A91865 /* Sources */,
+				D24321232F2AEC1900A91865 /* Frameworks */,
+				D24321242F2AEC1900A91865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24321282F2AEC1900A91865 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D24321292F2AEC1900A91865 /* GenesysCloudConnectDemoUITests */,
+			);
+			name = GenesysCloudConnectDemoUITests;
+			productName = GenesysCloudConnectDemoUITests;
+			productReference = D24321262F2AEC1900A91865 /* GenesysCloudConnectDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D24321072F2AEC1700A91865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					D243210E2F2AEC1700A91865 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					D243211B2F2AEC1900A91865 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = D243210E2F2AEC1700A91865;
+					};
+					D24321252F2AEC1900A91865 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = D243210E2F2AEC1700A91865;
+					};
+				};
+			};
+			buildConfigurationList = D243210A2F2AEC1700A91865 /* Build configuration list for PBXProject "GenesysCloudConnectDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D24321062F2AEC1700A91865;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D24321102F2AEC1700A91865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D243210E2F2AEC1700A91865 /* GenesysCloudConnectDemo */,
+				D243211B2F2AEC1900A91865 /* GenesysCloudConnectDemoTests */,
+				D24321252F2AEC1900A91865 /* GenesysCloudConnectDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D243210D2F2AEC1700A91865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D243211A2F2AEC1900A91865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24321242F2AEC1900A91865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DF2726108AEA488F457EF2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenesysCloudConnectDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D243210B2F2AEC1700A91865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24321182F2AEC1900A91865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24321222F2AEC1900A91865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D243211E2F2AEC1900A91865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D243210E2F2AEC1700A91865 /* GenesysCloudConnectDemo */;
+			targetProxy = D243211D2F2AEC1900A91865 /* PBXContainerItemProxy */;
+		};
+		D24321282F2AEC1900A91865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D243210E2F2AEC1700A91865 /* GenesysCloudConnectDemo */;
+			targetProxy = D24321272F2AEC1900A91865 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D243212E2F2AEC1900A91865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D243212F2F2AEC1900A91865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D24321312F2AEC1900A91865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B9C50F4B0B66350760BA9F /* Pods-GenesysCloudConnectDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GenesysCloudConnectDemo.GenesysCloudConnectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D24321322F2AEC1900A91865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB83A73834C3167B7BC04EC /* Pods-GenesysCloudConnectDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GenesysCloudConnectDemo.GenesysCloudConnectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D24321342F2AEC1900A91865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GenesysCloudConnectDemo.GenesysCloudConnectDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenesysCloudConnectDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GenesysCloudConnectDemo";
+			};
+			name = Debug;
+		};
+		D24321352F2AEC1900A91865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GenesysCloudConnectDemo.GenesysCloudConnectDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenesysCloudConnectDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GenesysCloudConnectDemo";
+			};
+			name = Release;
+		};
+		D24321372F2AEC1900A91865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GenesysCloudConnectDemo.GenesysCloudConnectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GenesysCloudConnectDemo;
+			};
+			name = Debug;
+		};
+		D24321382F2AEC1900A91865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GenesysCloudConnectDemo.GenesysCloudConnectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GenesysCloudConnectDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D243210A2F2AEC1700A91865 /* Build configuration list for PBXProject "GenesysCloudConnectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D243212E2F2AEC1900A91865 /* Debug */,
+				D243212F2F2AEC1900A91865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24321302F2AEC1900A91865 /* Build configuration list for PBXNativeTarget "GenesysCloudConnectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24321312F2AEC1900A91865 /* Debug */,
+				D24321322F2AEC1900A91865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24321332F2AEC1900A91865 /* Build configuration list for PBXNativeTarget "GenesysCloudConnectDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24321342F2AEC1900A91865 /* Debug */,
+				D24321352F2AEC1900A91865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24321362F2AEC1900A91865 /* Build configuration list for PBXNativeTarget "GenesysCloudConnectDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24321372F2AEC1900A91865 /* Debug */,
+				D24321382F2AEC1900A91865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D24321072F2AEC1700A91865 /* Project object */;
+}
