@@ -15,8 +15,6 @@ profile
 DerivedData
 *.hmap
 *.xccheckout
-*.xcworkspace
-!default.xcworkspace
 
 # CocoaPods
 Pods/
@@ -25,8 +23,6 @@ Pods/
 
 # Swift Package Manager
 .build/
-*.xcodeproj
-!default.xcodeproj
 .project
 .svn/
 
